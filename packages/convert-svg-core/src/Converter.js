@@ -191,6 +191,7 @@ class Converter {
     const start = input.indexOf('<svg');
 
     let html = `<!DOCTYPE html>
+<head> <meta charset="UTF-8"> </head>
 <base href="${options.baseUrl}">
 <style>
 * { margin: 0; padding: 0; }
